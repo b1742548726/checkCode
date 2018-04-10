@@ -1,0 +1,77 @@
+<?xml version="1.0"?>
+<project
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd"
+	xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>com.bk</groupId>
+		<artifactId>bk-parent</artifactId>
+		<version>0.0.1</version>
+		<relativePath>../bk-parent/pom.xml</relativePath> 
+	</parent>
+	
+	<groupId>com.bk.wd.web</groupId>
+	<artifactId>bk-wd-web</artifactId>
+	<packaging>war</packaging>
+	
+	<dependencies>
+		<dependency>
+			<groupId>com.bk.sys.cas</groupId>
+			<artifactId>bk-sys-cas</artifactId>
+			<version>0.0.1</version>
+		</dependency>
+		<dependency>
+			<groupId>com.bk.wd</groupId>
+			<artifactId>bk-wd-service</artifactId>
+			<version>0.0.1</version>
+		</dependency>
+		<dependency>
+			  <groupId>com.bk.wd.pl.service</groupId>
+			  <artifactId>bk-wd-pl-service</artifactId>
+			  <version>0.0.1</version>
+		</dependency>
+		<dependency>
+			<groupId>com.bk.bi</groupId>
+			<artifactId>bk-bi-service</artifactId>
+			<version>0.0.1</version>
+		</dependency>
+		<dependency>
+			<groupId>com.oa.service</groupId>
+			<artifactId>bk-oa-service</artifactId>
+			<version>0.0.1</version>
+		</dependency>
+		<dependency>
+			<groupId>com.bk.sm</groupId>
+			<artifactId>bk-sm-service</artifactId>
+			<version>0.0.1</version>
+		</dependency>
+		
+		<dependency>
+			<groupId>com.bk.cll.service</groupId>
+	  		<artifactId>bk-cll-service</artifactId>
+			<version>0.0.1</version>
+		</dependency>
+	    
+    	<dependency>
+            <groupId>org.jsoup</groupId>
+            <artifactId>jsoup</artifactId>
+            <version>1.10.1</version>
+        </dependency>
+		
+		<dependency>
+		    <groupId>jmimemagic</groupId>
+		    <artifactId>jmimemagic</artifactId>
+		    <version>0.1.2</version>
+		</dependency>
+		
+		<dependency>
+            <groupId>com.google.zxing</groupId>
+            <artifactId>core</artifactId>
+            <version>3.3.0</version>
+        </dependency>
+        
+	</dependencies>
+	<build>
+		<finalName>bk-wd-admin</finalName>
+	</build>
+</project>

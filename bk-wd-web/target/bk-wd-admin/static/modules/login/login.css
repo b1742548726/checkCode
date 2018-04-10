@@ -1,0 +1,196 @@
+@CHARSET "UTF-8";
+html, body {
+     font-family: PingFang-SC;
+     font-size: 16px;
+     font-weight: 200;
+     background-repeat: no-repeat;
+     background-size: cover;
+     margin: 0;
+     padding: 0;
+     text-align: center;
+     vertical-align: middle;
+     /*min-height: 100vh;*/
+ }
+
+ .center-in-center {
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     -webkit-transform: translate(-50%, -75%);
+     -moz-transform: translate(-50%, -75%);
+     -ms-transform: translate(-50%, -75%);
+     -o-transform: translate(-50%, -75%);
+     transform: translate(-50%, -75%);
+ }
+
+ .error-message-hide {
+     width: 600px;
+     height: 40px;
+     line-height: 40px;
+     text-align: center;
+     vertical-align: middle;
+     color: rgba(255,255,255,0);
+     border-radius: 6px;
+     background-color: rgba(255,255,255,0);
+     margin: 0px 0px 20px;
+ }
+
+ .error-message-show {
+     width: 600px;
+     height: 40px;
+     line-height: 40px;
+     text-align: center;
+     vertical-align: middle;
+     color: #ff661b;
+     border-radius: 6px;
+     background-color: rgba(26, 38, 68, 0.40);
+     margin: 0px 0px 20px;
+ }
+
+ .system-logo {
+     width: 600px;
+     height: 130px;
+     line-height: 130px;
+     border-top-left-radius: 6px;
+     border-top-right-radius: 6px;
+     background-color: rgba(26, 38, 68, 0.40);
+     margin: 0px 0px 2px;
+     text-align: center;
+     vertical-align: middle;
+ }
+
+     .system-logo .logo {
+         width: 150px;
+         height: 85px;
+         vertical-align: middle;
+         margin: 0px 10px;
+     }
+
+     .system-logo .name {
+         font-size: 36px;
+         font-weight: 300;
+         letter-spacing: 3px;
+         text-align: center;
+         vertical-align: middle;
+         color: #ffffff;
+         margin: 0px 10px;
+     }
+
+ .login-content {
+     width: 600px;
+     /*height: 265px;*/
+     /*border-bottom-left-radius: 6px;*/
+     /*border-bottom-right-radius: 6px;*/
+     background-color: rgba(26, 38, 68, 0.40);
+ }
+
+     .login-content > div.login-input {
+         text-align: justify;
+     }
+
+         .login-content > div.login-input:first-of-type {
+             padding: 20px 56px 6px;
+         }
+
+         .login-content > div.login-input:nth-of-type(2) {
+             padding: 6px 56px;
+         }
+
+         .login-content > div.login-input:last-of-type {
+             padding: 6px 56px 20px;
+         }
+
+     .login-content label {
+         height: 40px;
+         line-height: 40px;
+         margin-right: 16px;
+         color: #ffffff;
+         font-size: 16px;
+         display: inline-block;
+         text-align: justify;
+     }
+
+     .login-content input {
+         width: 380px;
+         height: 34px;
+         border: 1px solid #35405c;
+         border-radius: 3px;
+         background-color: rgba(52, 64, 92, 0.3);
+         padding: 2px 8px;
+         font-size: 16px;
+         color: white;
+         display: inline-block;
+     }
+
+         .login-content input.verification-code {
+             width: 200px;
+         }
+
+
+     .login-content span.verification-code {
+         display: inline-block;
+         width: 160px;
+         height: 40px;
+         line-height: 40px;
+         text-align: right;
+         margin-left: 10px;
+         vertical-align: middle;
+     }
+
+         .login-content span.verification-code > a {
+             display: inline-block;
+             height: 40px;
+             line-height: 40px;
+             font-size: 16px;
+             color: white;
+             padding: 0px 4px;
+         }
+
+         .login-content span.verification-code > img {
+             display: initial;
+             width: 100px;
+             height: 40px;
+             vertical-align: bottom;
+             border-radius: 3px;
+         }
+
+ .login-submit {
+     width: 600px;
+     border-bottom-left-radius: 6px;
+     border-bottom-right-radius: 6px;
+     background-color: rgba(26, 38, 68, 0.40);
+ }
+
+     .login-submit > div {
+         padding: 10px 56px 20px 126px;
+         text-align: initial;
+     }
+
+     .login-submit input[type=submit] {
+         width: 160px;
+         height: 40px;
+         font-size: 16px;
+         border: 1px solid #ff661b;
+         border-radius: 8px;
+         background-color: #ff661b;
+         color: white;
+     }
+
+
+     .login-submit input[type=checkbox] {
+         width: 20px;
+         height: 20px;
+         border: 1px solid #ff661b;
+         border-radius: 3px;
+         vertical-align: middle;
+     }
+
+     .login-submit span.remember-me {
+         display: inline-block;
+         width: 240px;
+         height: 40px;
+         line-height: 40px;
+         text-align: right;
+         vertical-align: middle;
+         color: #a1abc9;
+     }

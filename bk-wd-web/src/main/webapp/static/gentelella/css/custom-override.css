@@ -1,0 +1,23 @@
+html, body {
+	height: auto !important; 
+}
+body {
+    background: transparent;
+}
+
+.wd-nonpadding {
+    padding: 0px;
+}
+
+.wd-btn-width-middle {
+    width: 108px;
+}
+
+.switchery {
+    width: 50px;
+    border-radius: 10px;
+}
+
+span.required {
+    color: red;
+}
